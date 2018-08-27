@@ -1,0 +1,28 @@
+{
+  "options": {
+    "paths": {
+      "root": "./",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": "tiles"
+    }
+  },
+  "styles": {
+    "baculus": {
+      "style": "baculus/style.json",
+      "tilejson": {
+        "bounds": [
+          -31.6575302,
+          29.7288021,
+          -6.0891591,
+          42.2543112
+        ]
+      }
+    }
+  },
+  "data": {
+    "world": {
+      "mbtiles": "world.mbtiles"
+    }
+  }
+}
