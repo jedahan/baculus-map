@@ -1,0 +1,21 @@
+<head>
+  <script>
+    function start() {
+      setTimeout(
+        console.log('loaded')
+      , 5000)
+    }
+  </script>
+  <style>
+    iframe {
+      width: 80%;
+      height: 80%;
+    }
+  </style>
+</head>
+
+<body>
+
+<iframe onload='start()' src="http://localhost:8080/styles/baculus/?vector#15/40.7189/-73.9859"></iframe>
+
+</body>
