@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": ">=6 <7"
+    "node": ">=8 <9"
   },
   "scripts": {
+    "start": "tileserver-gl-light --config tileserver.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tileserver-gl": "^2.3.1"
+    "tileserver-gl-light": "^2.3.1"
   }
 }

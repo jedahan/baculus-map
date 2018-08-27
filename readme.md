@@ -1,5 +1,9 @@
 scuttlebutt tile viewer
 
-uses tileserver-gl, which only works on node@6
+to install
 
-    npx -p node@6 npm install
+    npx -p node@8 npm install
+
+to run
+
+    npx -p node@8 npm start
